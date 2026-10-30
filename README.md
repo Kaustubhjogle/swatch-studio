@@ -1,6 +1,6 @@
 # Swatch Studio
 
-A browser-local 3D exploration of Pantone's 2026 Colour of the Year, Cloud Dancer, and its seven accompanying palettes.
+A browser-local 3D explorer with fifty colours and seven palettes for a local educational study.
 
 ## Run
 
@@ -15,12 +15,9 @@ npm run dev
 
 Drag horizontally to rotate. Click a 3D swatch or a colour chip to bring it to six o'clock. The selected swatch lifts and turns toward the viewer. Previous/next and focused wheel arrow keys support keyboard exploration. Filter the colour strip by palette, and copy HEX or RGB from the detail panel. The wheel retains all 50 unique shades for context.
 
-## Colour provenance
+## Themes and arrival
 
-- Official collection and seven palette names: https://www.pantone.com/na/en-us/color-of-the-year/2026 and https://www.pantone.com/uk/en-gb/articles/color-of-the-year/color-of-the-year-2026-color-palettes
-- Colour names, codes and approximate screen HEX values transcribed from the palette cards at https://renneritalia.com/fr/cloud-dancer-il-colore-pantone-dellanno-2026/ on 30 October 2026. Source has 56 entries, 50 distinct colours because Cloud Dancer repeats. Data is stored locally in `src/colors.json`; no live fetching or scraping happens for visitors.
-- The HEX values are the reference page's approximations, not authenticated Pantone Connect colour measurements. Metallic TPM entries are represented by flat approximations. Lighting alters the 3D material appearance; the detail panel shows the unlit sRGB value.
-- Original user-supplied stand Top and Bottom and Bambu Lab Style Filament Swatch STL files are preserved in `public/models/`. Source filenames were shortened only. Rights to the models remain with their original authors. This independent explorer is not affiliated with Pantone or Bambu Lab.
+Use the sun/moon button in the header. The separate Wheel control switches the stand between black and white in either theme. Both preferences are stored in localStorage. The compact layout shows the wheel immediately and starts each load at the top.
 
 ## Performance and fallback
 
@@ -29,3 +26,13 @@ Shared swatch geometry, cached environment lighting, capped device pixel ratio, 
 ## Verification
 
 Production build; browser checks for drag, swatch selection, palette filtering, previous/next, keyboard, and clipboard; visual review at desktop, 390px mobile and the app panel width. Mobile layout has no horizontal overflow.
+
+## Publishing preference
+Local-only development. Ask the user before any hosting, deployment, or source upload. A previously created private Sites copy exists; local changes must not automatically update it.
+
+## Playback and framing
+Play/pause sits beside reset. Play waits two seconds, then advances one colour every two seconds within the current palette. Manual colour changes or dragging pause playback. Camera zoom fits projected rim points and the full raised swatch to the canvas; stage height is viewport-aware. The restored collection includes pastels, tropical brights, and deep reds.
+
+## Centre mark and tighter framing
+The centre uses a 2048px canvas texture of a bold, two-line Swatch Studio wordmark, with locally loaded Inter Tight, maximum supported anisotropy and contrasting ink for either stand colour. Camera fitting centres the projected silhouette and fits its extents, including the raised swatch, rather than centring an oversized empty scene.
+# swatch-studio
