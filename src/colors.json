@@ -1,396 +1,346 @@
 {
   "colors": [
     {
-      "id": "11-0515 TCX",
-      "code": "11-0515 TCX",
-      "name": "Lemon Icing",
-      "hex": "#F3EECF"
-    },
-    {
-      "id": "13-4108 TCX",
-      "code": "13-4108 TCX",
-      "name": "Nimbus Cloud",
-      "hex": "#C9CACC"
-    },
-    {
-      "id": "11-1400 TCX",
-      "code": "11-1400 TCX",
-      "name": "Raindrops on Roses",
-      "hex": "#E5D3D6"
-    },
-    {
-      "id": "11-4201 TCX",
-      "code": "11-4201 TCX",
+      "id": "cloud-dancer",
       "name": "Cloud Dancer",
-      "hex": "#ECEBE7"
+      "hex": "#EEEAE8"
     },
     {
-      "id": "13-4306 TCX",
-      "code": "13-4306 TCX",
+      "id": "lemon-icing",
+      "name": "Lemon Icing",
+      "hex": "#F5EDD0"
+    },
+    {
+      "id": "nimbus-cloud",
+      "name": "Nimbus Cloud",
+      "hex": "#CBC9CD"
+    },
+    {
+      "id": "raindrops-on-roses",
+      "name": "Raindrops on Roses",
+      "hex": "#E7D2D7"
+    },
+    {
+      "id": "ice-melt",
       "name": "Ice Melt",
-      "hex": "#D3E1EB"
+      "hex": "#D5E0EC"
     },
     {
-      "id": "12-1107 TCX",
-      "code": "12-1107 TCX",
+      "id": "peach-dust",
       "name": "Peach Dust",
-      "hex": "#EED7C9"
+      "hex": "#F0D6CA"
     },
     {
-      "id": "13-6006 TCX",
-      "code": "13-6006 TCX",
+      "id": "almost-aqua",
       "name": "Almost Aqua",
-      "hex": "#BCC8B7"
+      "hex": "#BEC7B8"
     },
     {
-      "id": "13-3802 TCX",
-      "code": "13-3802 TCX",
+      "id": "orchid-tint",
       "name": "Orchid Tint",
-      "hex": "#D7CDD8"
+      "hex": "#D9CCD9"
     },
     {
-      "id": "15-1040 TCX",
-      "code": "15-1040 TCX",
+      "id": "iced-coffee",
       "name": "Iced Coffee",
-      "hex": "#B28F71"
+      "hex": "#B48E72"
     },
     {
-      "id": "15-0960 TCX",
-      "code": "15-0960 TCX",
+      "id": "mango-mojito",
       "name": "Mango Mojito",
-      "hex": "#D39A23"
+      "hex": "#D59924"
     },
     {
-      "id": "18-1020 TCX",
-      "code": "18-1020 TCX",
+      "id": "cocoa-cr-me",
       "name": "Cocoa Cr\u00e8me",
-      "hex": "#8B6B52"
+      "hex": "#8D6A53"
     },
     {
-      "id": "16-1735 TCX",
-      "code": "16-1735 TCX",
+      "id": "pink-lemonade",
       "name": "Pink Lemonade",
-      "hex": "#F06287"
+      "hex": "#F26188"
     },
     {
-      "id": "16-0213 TCX",
-      "code": "16-0213 TCX",
+      "id": "tea",
       "name": "Tea",
-      "hex": "#9A9E84"
+      "hex": "#9C9D85"
     },
     {
-      "id": "15-1243 TCX",
-      "code": "15-1243 TCX",
+      "id": "papaya",
       "name": "Papaya",
-      "hex": "#FFA86A"
+      "hex": "#FFA76B"
     },
     {
-      "id": "16-1439 TCX",
-      "code": "16-1439 TCX",
+      "id": "caramel",
       "name": "Caramel",
-      "hex": "#B56F42"
+      "hex": "#B76E43"
     },
     {
-      "id": "14-4005 TCX",
-      "code": "14-4005 TCX",
+      "id": "nantucket-breeze",
       "name": "Nantucket Breeze",
-      "hex": "#AFC8DD"
+      "hex": "#B1C7DE"
     },
     {
-      "id": "15-4225 TCX",
-      "code": "15-4225 TCX",
+      "id": "alaskan-blue",
       "name": "Alaskan Blue",
-      "hex": "#72A6C9"
+      "hex": "#74A5CA"
     },
     {
-      "id": "15-3909 TCX",
-      "code": "15-3909 TCX",
+      "id": "cosmic-sky",
       "name": "Cosmic Sky",
-      "hex": "#A5A4BC"
+      "hex": "#A7A3BD"
     },
     {
-      "id": "15-5205 TCX",
-      "code": "15-5205 TCX",
+      "id": "aqua-gray",
       "name": "Aqua Gray",
-      "hex": "#A4ADA2"
+      "hex": "#A6ACA3"
     },
     {
-      "id": "18-4039 TCX",
-      "code": "18-4039 TCX",
+      "id": "regatta",
       "name": "Regatta",
-      "hex": "#4A79B2"
+      "hex": "#4C78B3"
     },
     {
-      "id": "14-4912 TCX",
-      "code": "14-4912 TCX",
+      "id": "rinsing-rivulet",
       "name": "Rinsing Rivulet",
-      "hex": "#63C1B7"
+      "hex": "#65C0B8"
     },
     {
-      "id": "14-0827 TCX",
-      "code": "14-0827 TCX",
+      "id": "dusky-citron",
       "name": "Dusky Citron",
-      "hex": "#D8C27A"
+      "hex": "#DAC17B"
     },
     {
-      "id": "14-1210 TCX",
-      "code": "14-1210 TCX",
+      "id": "shifting-sand",
       "name": "Shifting Sand",
-      "hex": "#D7C6B5"
+      "hex": "#D9C5B6"
     },
     {
-      "id": "16-1329 TCX",
-      "code": "16-1329 TCX",
+      "id": "coral-haze",
       "name": "Coral Haze",
-      "hex": "#E28C82"
+      "hex": "#E48B83"
     },
     {
-      "id": "17-0807 TCX",
-      "code": "17-0807 TCX",
+      "id": "mountain-trail",
       "name": "Mountain Trail",
-      "hex": "#7D6657"
+      "hex": "#7F6558"
     },
     {
-      "id": "14-1217 TCX",
-      "code": "14-1217 TCX",
+      "id": "amberlight",
       "name": "Amberlight",
-      "hex": "#E6C3A8"
+      "hex": "#E8C2A9"
     },
     {
-      "id": "15-0703 TCX",
-      "code": "15-0703 TCX",
+      "id": "ashes-of-roses",
       "name": "Ashes of Roses",
-      "hex": "#B7AAA7"
+      "hex": "#B9A9A8"
     },
     {
-      "id": "16-1806 TCX",
-      "code": "16-1806 TCX",
+      "id": "woodrose",
       "name": "Woodrose",
-      "hex": "#B48C8F"
+      "hex": "#B68B90"
     },
     {
-      "id": "18-1512 TCX",
-      "code": "18-1512 TCX",
+      "id": "rose-brown",
       "name": "Rose Brown",
-      "hex": "#85565C"
+      "hex": "#87555D"
     },
     {
-      "id": "17-3323 TCX",
-      "code": "17-3323 TCX",
+      "id": "iris-orchid",
       "name": "Iris Orchid",
-      "hex": "#A56AA5"
+      "hex": "#A769A6"
     },
     {
-      "id": "15-4722 TCX",
-      "code": "15-4722 TCX",
+      "id": "capri",
       "name": "Capri",
-      "hex": "#44B5CC"
+      "hex": "#46B4CD"
     },
     {
-      "id": "14-0443 TCX",
-      "code": "14-0443 TCX",
+      "id": "kiwi-colada",
       "name": "Kiwi Colada",
-      "hex": "#B1C423"
+      "hex": "#B3C324"
     },
     {
-      "id": "12-0741 TCX",
-      "code": "12-0741 TCX",
+      "id": "sunny-lime",
       "name": "Sunny Lime",
-      "hex": "#D7E988"
+      "hex": "#D9E889"
     },
     {
-      "id": "15-1164 TCX",
-      "code": "15-1164 TCX",
+      "id": "bright-marigold",
       "name": "Bright Marigold",
-      "hex": "#FF8615"
+      "hex": "#FF8516"
     },
     {
-      "id": "17-1755 TCX",
-      "code": "17-1755 TCX",
+      "id": "paradise-pink",
       "name": "Paradise Pink",
-      "hex": "#D94C63"
+      "hex": "#DB4B64"
     },
     {
-      "id": "12-0643 TCX",
-      "code": "12-0643 TCX",
+      "id": "blazing-yellow",
       "name": "Blazing Yellow",
-      "hex": "#F4DD00"
+      "hex": "#F6DC01"
     },
     {
-      "id": "12-6000 TCX",
-      "code": "12-6000 TCX",
+      "id": "veiled-vista",
       "name": "Veiled Vista",
-      "hex": "#CFE7CF"
+      "hex": "#D1E6D0"
     },
     {
-      "id": "14-4320 TCX",
-      "code": "14-4320 TCX",
+      "id": "baltic-sea",
       "name": "Baltic Sea",
-      "hex": "#75A7C8"
+      "hex": "#77A6C9"
     },
     {
-      "id": "13-0624 TCX",
-      "code": "13-0624 TCX",
+      "id": "golden-mist",
       "name": "Golden Mist",
-      "hex": "#CFC78E"
+      "hex": "#D1C68F"
     },
     {
-      "id": "16-3610 TCX",
-      "code": "16-3610 TCX",
+      "id": "quiet-violet",
       "name": "Quiet Violet",
-      "hex": "#A796AD"
+      "hex": "#A995AE"
     },
     {
-      "id": "16-1523 TCX",
-      "code": "16-1523 TCX",
+      "id": "cloud-cover",
       "name": "Cloud Cover",
-      "hex": "#A8A3A2"
+      "hex": "#AAA2A3"
     },
     {
-      "id": "17-5800 TCX",
-      "code": "17-5800 TCX",
+      "id": "hematite",
       "name": "Hematite",
-      "hex": "#7A726C"
+      "hex": "#7C716D"
     },
     {
-      "id": "18-4218 TCX",
-      "code": "18-4218 TCX",
+      "id": "blue-fusion",
       "name": "Blue Fusion",
-      "hex": "#425A6E"
+      "hex": "#44596F"
     },
     {
-      "id": "19-4005 TCX",
-      "code": "19-4005 TCX",
+      "id": "stretch-limo",
       "name": "Stretch Limo",
-      "hex": "#2B2E33"
+      "hex": "#2D2D34"
     },
     {
-      "id": "19-1558 TCX",
-      "code": "19-1558 TCX",
+      "id": "scarlet-smile",
       "name": "Scarlet Smile",
-      "hex": "#A12332"
+      "hex": "#A32233"
     },
     {
-      "id": "17-1710 TCX",
-      "code": "17-1710 TCX",
+      "id": "bordeaux",
       "name": "Bordeaux",
-      "hex": "#9D6A7D"
+      "hex": "#9F697E"
     },
     {
-      "id": "19-4826 TCX",
-      "code": "19-4826 TCX",
+      "id": "dragonfly",
       "name": "Dragonfly",
-      "hex": "#235A68"
+      "hex": "#255969"
     },
     {
-      "id": "20-0188 TPM",
-      "code": "20-0188 TPM",
+      "id": "graphite",
       "name": "Graphite",
-      "hex": "#565A42"
+      "hex": "#585943"
     },
     {
-      "id": "20-0020 TPM",
-      "code": "20-0020 TPM",
+      "id": "satin-slipper",
       "name": "Satin Slipper",
-      "hex": "#8B8371"
+      "hex": "#8D8272"
     },
     {
-      "id": "20-0007 TPM",
-      "code": "20-0007 TPM",
+      "id": "micron",
       "name": "Micron",
-      "hex": "#5E6061"
+      "hex": "#605F62"
     }
   ],
   "palettes": [
     {
       "name": "Powdered Pastels",
       "colors": [
-        "11-0515 TCX",
-        "13-4108 TCX",
-        "11-1400 TCX",
-        "11-4201 TCX",
-        "13-4306 TCX",
-        "12-1107 TCX",
-        "13-6006 TCX",
-        "13-3802 TCX"
+        "lemon-icing",
+        "nimbus-cloud",
+        "raindrops-on-roses",
+        "cloud-dancer",
+        "ice-melt",
+        "peach-dust",
+        "almost-aqua",
+        "orchid-tint"
       ]
     },
     {
       "name": "Take a Break",
       "colors": [
-        "15-1040 TCX",
-        "15-0960 TCX",
-        "18-1020 TCX",
-        "16-1735 TCX",
-        "16-0213 TCX",
-        "15-1243 TCX",
-        "11-4201 TCX",
-        "16-1439 TCX"
+        "iced-coffee",
+        "mango-mojito",
+        "cocoa-cr-me",
+        "pink-lemonade",
+        "tea",
+        "papaya",
+        "cloud-dancer",
+        "caramel"
       ]
     },
     {
       "name": "Atmospheric",
       "colors": [
-        "14-4005 TCX",
-        "11-4201 TCX",
-        "15-4225 TCX",
-        "15-3909 TCX",
-        "15-5205 TCX",
-        "18-4039 TCX",
-        "14-4912 TCX",
-        "14-0827 TCX"
+        "nantucket-breeze",
+        "cloud-dancer",
+        "alaskan-blue",
+        "cosmic-sky",
+        "aqua-gray",
+        "regatta",
+        "rinsing-rivulet",
+        "dusky-citron"
       ]
     },
     {
       "name": "Comfort Zone",
       "colors": [
-        "14-1210 TCX",
-        "16-1329 TCX",
-        "17-0807 TCX",
-        "14-1217 TCX",
-        "15-0703 TCX",
-        "16-1806 TCX",
-        "18-1512 TCX",
-        "11-4201 TCX"
+        "shifting-sand",
+        "coral-haze",
+        "mountain-trail",
+        "amberlight",
+        "ashes-of-roses",
+        "woodrose",
+        "rose-brown",
+        "cloud-dancer"
       ]
     },
     {
       "name": "Tropic Tonalities",
       "colors": [
-        "11-4201 TCX",
-        "17-3323 TCX",
-        "15-4722 TCX",
-        "14-0443 TCX",
-        "12-0741 TCX",
-        "15-1164 TCX",
-        "17-1755 TCX",
-        "12-0643 TCX"
+        "cloud-dancer",
+        "iris-orchid",
+        "capri",
+        "kiwi-colada",
+        "sunny-lime",
+        "bright-marigold",
+        "paradise-pink",
+        "blazing-yellow"
       ]
     },
     {
       "name": "Light & Shadow",
       "colors": [
-        "11-4201 TCX",
-        "12-6000 TCX",
-        "14-4320 TCX",
-        "13-0624 TCX",
-        "16-3610 TCX",
-        "16-1523 TCX",
-        "17-5800 TCX",
-        "18-4218 TCX"
+        "cloud-dancer",
+        "veiled-vista",
+        "baltic-sea",
+        "golden-mist",
+        "quiet-violet",
+        "cloud-cover",
+        "hematite",
+        "blue-fusion"
       ]
     },
     {
       "name": "Glamour & Gleam",
       "colors": [
-        "19-4005 TCX",
-        "11-4201 TCX",
-        "19-1558 TCX",
-        "17-1710 TCX",
-        "19-4826 TCX",
-        "20-0188 TPM",
-        "20-0020 TPM",
-        "20-0007 TPM"
+        "stretch-limo",
+        "cloud-dancer",
+        "scarlet-smile",
+        "bordeaux",
+        "dragonfly",
+        "graphite",
+        "satin-slipper",
+        "micron"
       ]
     }
   ]

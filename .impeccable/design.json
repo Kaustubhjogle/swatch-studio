@@ -75,14 +75,14 @@
       "name": "Colour chip",
       "kind": "chip",
       "description": "Selected specimen with offset outline, dot and lift.",
-      "html": "<button class=\"ds-chip\" aria-label=\"Cloud Dancer\" aria-pressed=\"true\"><span>Cloud Dancer</span></button>",
+      "html": "<button class=\"ds-chip\" aria-label=\"Porcelain\" aria-pressed=\"true\"><span>Porcelain</span></button>",
       "css": ".ds-chip{position:relative;width:28px;height:48px;background:#ecebe7;border:0;border-radius:3px;box-shadow:inset 0 0 0 1px #00000009;outline:1px solid #485441;outline-offset:3px;transform:translateY(-3px);transition:transform .18s ease;cursor:pointer}.ds-chip:after{content:\"\";position:absolute;width:4px;height:4px;border-radius:50%;bottom:-12px;left:calc(50% - 2px);background:#485441}.ds-chip span{display:none;position:absolute;bottom:calc(100% + 9px);left:50%;transform:translateX(-50%);background:#333b2d;color:white;padding:7px 9px;font:10px \"Inter Tight\",sans-serif;border-radius:4px;white-space:nowrap}.ds-chip:hover{transform:translateY(-5px)}.ds-chip:hover span,.ds-chip:focus-visible span{display:block}.ds-chip:focus-visible{outline:2px solid #53729b;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-chip{transition:none}}"
     },
     {
       "name": "Selected specimen",
       "kind": "card",
       "description": "Flat true-colour specimen with lower-left identification.",
-      "html": "<div class=\"ds-specimen\"><span>PANTONE\u00ae<small>11-4201 TCX</small></span></div>",
+      "html": "<div class=\"ds-specimen\"><span>COLOUR<small>#F5F2EA</small></span></div>",
       "css": ".ds-specimen{position:relative;height:189px;width:316px;background:#ecebe7;border-radius:5px;box-shadow:inset 0 0 0 1px #00000006;color:#262823;font-family:\"Inter Tight\",sans-serif}.ds-specimen>span{position:absolute;bottom:20px;left:20px;font-size:17px;font-weight:600;letter-spacing:-.2px}.ds-specimen small{display:block;font-size:11px;font-weight:400;letter-spacing:.4px;margin-top:4px}"
     }
   ],

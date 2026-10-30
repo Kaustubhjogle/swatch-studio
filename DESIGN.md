@@ -7,7 +7,7 @@ colors:
   muted: "#62695d"
   index-secondary: "#697060"
   line: "#dedfd6"
-  stage: "#eeeee8"
+  stage: "transparent"
   control-blue: "#e8eef5"
   select-surface: "#e9edf0"
   select-label: "#536577"
@@ -41,7 +41,7 @@ rounded:
   swatch: "5px"
   select: "7px"
   panel: "10px"
-  stage: "12px"
+  stage: "0px"
   round: "50%"
 spacing:
   chip-gap: "5px"
@@ -112,12 +112,12 @@ Depth comes mainly from the rendered wheel, lighting and cast shadow. UI surface
 
 ## Shapes
 
-Corners are softly restrained: 3px chips, 5px specimens, 7px selector, 10px About panel and 12px stage. Navigation and reset controls are circular. The collection badge is an outlined pill. Fine 1px rules preserve instrument-like precision.
+Corners are softly restrained: 3px chips, 5px specimens, 7px selector, 10px About panel; the wheel stage has no visible enclosure. Navigation and reset controls are circular. The collection badge is an outlined pill. Fine 1px rules preserve instrument-like precision.
 
 ## Components
 
-- **Wheel stage:** top labels and bottom gesture guidance frame the supplied STL geometry. Drag rotates; selection lifts a swatch toward the viewer. Arrow keys select neighbours; reset returns to Cloud Dancer.
-- **Selected specimen:** true-colour rectangle with a lower-left Pantone caption. Caption text switches between dark and white according to the selected colour. A translucent tag marks Cloud Dancer.
+- **Wheel stage:** top labels and bottom gesture guidance frame the supplied STL geometry. Drag rotates; selection lifts a swatch toward the viewer. Arrow keys select neighbours; reset returns to Porcelain.
+- **Selected specimen:** true-colour rectangle with a lower-left generic colour caption and HEX. Caption text switches between dark and white according to the selected colour. There are no branded colour codes or annual collection labels.
 - **Copy rows:** full-width HEX and RGB buttons with fine separators, tabular values and right-aligned copy/check icons. Copy feedback appears briefly in the navigation caption.
 - **Circular controls:** outlined 32px arrows gain pale blue fill on hover. The 33px reset has a lighter resting fill.
 - **Palette selector:** pale grey-blue native select with label, divider and chevron. The label hides on mobile.
@@ -133,3 +133,15 @@ Chip transforms transition over 180ms; specimen backgrounds over 300ms. Reduced-
 - **Do** preserve visible focus, tabular values and the responsive detail layout.
 - **Don't** introduce a competing interface accent or alternate font direction.
 - **Don't** replace physical geometry with decorative imagery or add shadows to every surface.
+
+The wheel sits directly on the studio background with no visible card or enclosing box. The selected swatch rises 40 model units from its resting centre, leaving a visible gap above neighbouring swatches.
+
+## Theme and compact arrival update
+Light background remains studio off-white with a black STL stand. Dark background is #16191d, ink #e9ece8, secondary #b0b9ad, rules #363d42, and control surface #29333f, with a white STL stand. The theme button uses sun/moon icons; preference is stored locally and applied before initial paint. Theme changes update the shared 3D stand material in place.
+Header height is 68px desktop and 60px mobile. Intro margins are 22px/16px desktop, 18px/12px mobile. The mobile wheel stage is 300px high. Desktop stage height is viewport-aware and bounded. Reload begins at scroll zero. Earlier layout measurements above describe the original layout and are superseded by these compact dimensions.
+
+## Independent stand and viewport fit
+The page theme and stand material are separate user settings. A small black/white Wheel control sits beside the theme button; default stand white. Play/pause is next to reset and advances every two seconds; manual exploration pauses it. Camera fitting reserves horizontal and vertical margins around the rim and lifted tile. Mobile stage grows to 350px on typical screens; small desktop panels bound stage height by both width and viewport height. The soft independent palette uses muted pastels, earth tones, blues and greens. This supersedes the earlier theme-coupled stand rules.
+
+## Current framing and centre mark
+The camera now fits the projected silhouette height and centres its midpoint, substantially enlarging the desktop wheel while retaining padding for labels and controls. Its inverse projection matrix is updated for correct click selection. The centre uses a bold two-line Swatch Studio wordmark rendered at 2048px with anisotropic texture filtering and contrast-aware ink on the black/white stand. The local educational dataset currently restores seven sourced palettes with small cosmetic channel offsets; earlier independent-palette descriptions are superseded.
