@@ -36,3 +36,15 @@ Play/pause sits beside reset. Play waits two seconds, then advances one colour e
 ## Centre mark and tighter framing
 The centre uses a 2048px canvas texture of a bold, two-line Swatch Studio wordmark, with locally loaded Inter Tight, maximum supported anisotropy and contrasting ink for either stand colour. Camera fitting centres the projected silhouette and fits its extents, including the raised swatch, rather than centring an oversized empty scene.
 # swatch-studio
+
+## Search, answer engines, and creator attribution
+
+- Descriptive title, description, author, Open Graph and Twitter summary metadata are in `index.html`.
+- `scripts/search-data.js` supplies JSON-LD Person, WebSite, WebPage and WebApplication entities with linked creator identity. The GitHub profile is an author/profile URL, never misrepresented as the source repository. No ratings, awards, endorsements or pricing are fabricated.
+- A visible static HTML guide explains the app, controls, autoplay, mobile support and colour limitations. It is readable before JavaScript runs and with JavaScript disabled; structured descriptions match visible content.
+- `public/llms.txt` is a supplementary descriptive guide for AI systems, not a recognized ranking guarantee or an authorization mechanism. `public/robots.txt` permits crawling; authentication and hosting policies still govern actual access. These files do not publish anything.
+- GitHub attribution appears in the footer, About panel, static guide, metadata and structured creator profile.
+
+### Approved production origin
+
+After the user approves a public domain and publication, set `VITE_SITE_URL` to its HTTPS origin (no path/query). Vite then adds the absolute canonical and Open Graph URL, uses absolute entity IDs, and emits `sitemap.xml` plus its robots declaration. Without that variable, no canonical, sitemap or invented public URL is emitted. Do not set localhost, the previous unapproved hosted URL, or a GitHub profile as the site's canonical. Hosting and public indexing still require user approval. After authorized publication, verify with Search Console and appropriate validators. These preparations do not guarantee indexing, rankings or inclusion in AI answers.

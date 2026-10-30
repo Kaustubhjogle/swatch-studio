@@ -24,3 +24,6 @@ Fit the rim and raised swatch to the available viewport so the wheel is larger a
 
 ## Educational collection and centre wordmark
 User explicitly requested restoring the sourced collection locally with slight HEX variation while intending to seek permission by email later. Do not describe this as licensed or independently authored. No email authorized or sent. Centre mark must read Swatch Studio clearly; replace previous tiny decorative lettering.
+
+## Creator and discoverability
+Creator: Kaustubh Jogle. User-provided GitHub profile: https://github.com/Kaustubhjogle . Include appropriate visible attribution and machine-readable creator identity. SEO/AEO content must accurately explain app controls and screen-colour limitations, with plain HTML available without WebGL/JavaScript. Public domain is undecided; search preparation does not authorize publication.

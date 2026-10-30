@@ -113,7 +113,7 @@ function App(){
            A local colour study with 50 shades, grouped into seven palettes.
            Built around the original 3D-printed swatch stand.
          </p>
-            <p>Kaustubh Jogle ™</p>
+            <p><a href="https://github.com/Kaustubhjogle" target="_blank" rel="noopener noreferrer me">Created by Kaustubh Jogle <ArrowUpRight size={14}/></a></p>
        </aside>
      )}
      <main>
@@ -323,7 +323,7 @@ function App(){
          <Info size={12} />
          Screen colours are approximate.
        </span>
-       <span>Kaustubh Jogle ™</span>
+       <a href="https://github.com/Kaustubhjogle" target="_blank" rel="noopener noreferrer me">Kaustubh Jogle ™ · GitHub <ArrowUpRight size={13}/></a>
      </footer>
    </div>
  );

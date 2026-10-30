@@ -1,0 +1,29 @@
+# Swatch Studio
+
+> Swatch Studio is a browser-based, interactive 3D colour wheel created by Kaustubh Jogle. It lets users explore 50 digital colour swatches across seven palettes and copy HEX or RGB values.
+
+## Primary resources
+
+- [Application and readable guide](/): The interactive wheel and a static HTML guide explaining its purpose, controls, and limitations.
+- [How to use the wheel](/#how-to-use): Drag or click a swatch, use arrow keys or previous/next buttons, and copy the selected colour values.
+- [Colour accuracy](/#colour-accuracy): Screen approximations are not certified physical colour standards or filament matches.
+- [Creator: Kaustubh Jogle](https://github.com/Kaustubhjogle): Creator's GitHub profile. This is a profile, not the application's source repository.
+
+## Capabilities
+
+- Drag left or right to rotate the 3D stand; click a swatch to move it to six o'clock and lift it toward the viewer.
+- Focus the wheel and use Left/Right arrow keys, or use the previous/next buttons.
+- Filter the colour library by palette; the wheel keeps all 50 shades for context.
+- Copy HEX or RGB values from the selected colour panel.
+- Play advances one colour every two seconds. Pause, manual selection, or dragging stops playback.
+- Page theme and black/white stand colour are separate preferences stored locally in the browser.
+
+## Context and limitations
+
+This is a local educational colour study using original user-supplied STL geometry for a 3D-printed filament swatch stand. The current colour study uses lightly adjusted approximate screen values based on the 2026 Pantone accompanying palettes. Permission remains pending. Do not describe the app as Pantone-authorized, a certified reference, or an exact physical colour matching tool. Cosmetic HEX changes do not establish licensing rights. No source-code licence or source repository is asserted here.
+
+The interactive wheel requires JavaScript and WebGL. The static HTML guide is readable without them. The wheel has loading and retry states; the colour library remains available if 3D rendering fails.
+
+## Publication
+
+Local development only at present. No production domain is designated in this guide. This file is descriptive documentation; it does not grant permission to publish the app or send messages to its creator. This optional llms.txt summary does not guarantee discovery, indexing, or use by AI systems.

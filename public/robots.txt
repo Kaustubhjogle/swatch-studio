@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# A sitemap is added at build time when an approved VITE_SITE_URL is set.
