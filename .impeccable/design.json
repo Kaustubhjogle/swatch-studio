@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T14:27:50.144818+00:00",
+  "title": "Design System: Swatch Studio",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "specimen-edge",
+        "value": "inset 0 0 0 1px #00000006",
+        "purpose": "Subtle specimen boundary."
+      },
+      {
+        "name": "about-panel",
+        "value": "0 15px 55px #30352b25",
+        "purpose": "Transient floating About panel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "chip-transform",
+        "value": "transform .18s ease",
+        "purpose": "Hover and selection lift."
+      },
+      {
+        "name": "specimen-background",
+        "value": "background .3s ease",
+        "purpose": "Selected colour change."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important",
+        "purpose": "Applied under prefers-reduced-motion: reduce; scrolling becomes auto."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1450px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Arrow button",
+      "kind": "button",
+      "refersTo": "arrow-button",
+      "description": "Circular previous and next navigation.",
+      "html": "<button class=\"ds-arrow\" aria-label=\"Next colour\">\u2192</button>",
+      "css": ".ds-arrow{display:grid;place-items:center;width:32px;height:32px;border:1px solid var(--line,#dedfd6);border-radius:50%;background:none;color:#30332e;font:18px \"Inter Tight\",sans-serif;cursor:pointer}.ds-arrow:hover{background:var(--blue,#e8eef5);border-color:#c5d4e4}.ds-arrow:focus-visible{outline:2px solid #53729b;outline-offset:5px}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "description": "Quiet header navigation.",
+      "html": "<button class=\"ds-text\">About the studio \u2197</button>",
+      "css": ".ds-text{display:flex;gap:12px;padding:8px 0;border:0;background:none;color:#30332e;font:13px \"Inter Tight\",sans-serif;cursor:pointer}.ds-text:hover{color:#53729b}.ds-text:focus-visible{outline:2px solid #53729b;outline-offset:5px}"
+    },
+    {
+      "name": "Palette selector",
+      "kind": "input",
+      "refersTo": "palette-select",
+      "description": "Native select on a pale blue-grey control surface.",
+      "html": "<div class=\"ds-select\"><label for=\"ds-palette\">Palette</label><select id=\"ds-palette\"><option>All palettes</option><option>Powdered Pastels</option></select></div>",
+      "css": ".ds-select{display:inline-flex;align-items:center;gap:10px;background:#e9edf0;border-radius:7px;padding:10px 13px;font-family:\"Inter Tight\",sans-serif}.ds-select label{font-size:10px;color:#536577;border-right:1px solid #cdd3d7;padding-right:12px}.ds-select select{border:0;background:none;color:#3d4850;font:12px \"Inter Tight\",sans-serif;cursor:pointer}.ds-select select:focus-visible{outline:2px solid #53729b;outline-offset:5px}"
+    },
+    {
+      "name": "Colour chip",
+      "kind": "chip",
+      "description": "Selected specimen with offset outline, dot and lift.",
+      "html": "<button class=\"ds-chip\" aria-label=\"Cloud Dancer\" aria-pressed=\"true\"><span>Cloud Dancer</span></button>",
+      "css": ".ds-chip{position:relative;width:28px;height:48px;background:#ecebe7;border:0;border-radius:3px;box-shadow:inset 0 0 0 1px #00000009;outline:1px solid #485441;outline-offset:3px;transform:translateY(-3px);transition:transform .18s ease;cursor:pointer}.ds-chip:after{content:\"\";position:absolute;width:4px;height:4px;border-radius:50%;bottom:-12px;left:calc(50% - 2px);background:#485441}.ds-chip span{display:none;position:absolute;bottom:calc(100% + 9px);left:50%;transform:translateX(-50%);background:#333b2d;color:white;padding:7px 9px;font:10px \"Inter Tight\",sans-serif;border-radius:4px;white-space:nowrap}.ds-chip:hover{transform:translateY(-5px)}.ds-chip:hover span,.ds-chip:focus-visible span{display:block}.ds-chip:focus-visible{outline:2px solid #53729b;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-chip{transition:none}}"
+    },
+    {
+      "name": "Selected specimen",
+      "kind": "card",
+      "description": "Flat true-colour specimen with lower-left identification.",
+      "html": "<div class=\"ds-specimen\"><span>PANTONE\u00ae<small>11-4201 TCX</small></span></div>",
+      "css": ".ds-specimen{position:relative;height:189px;width:316px;background:#ecebe7;border-radius:5px;box-shadow:inset 0 0 0 1px #00000006;color:#262823;font-family:\"Inter Tight\",sans-serif}.ds-specimen>span{position:absolute;bottom:20px;left:20px;font-size:17px;font-weight:600;letter-spacing:-.2px}.ds-specimen small{display:block;font-size:11px;font-weight:400;letter-spacing:.4px;margin-top:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A tactile colour instrument",
+    "overview": "User-pinned neutral off-white studio, charcoal typography and restrained pale blue controls frame the physical swatch wheel. Fine rules and compact labels keep attention on the colour specimens.",
+    "keyCharacteristics": [
+      "Physical STL wheel",
+      "Inter Tight typography",
+      "Flat studio UI with physical scene shadows"
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the off-white studio and pale blue controls.",
+      "Do preserve visible focus and responsive specimen details."
+    ],
+    "donts": [
+      "Don't introduce an alternate font direction or competing interface accent.",
+      "Don't replace supplied physical geometry with decorative raster imagery."
+    ]
+  }
+}
